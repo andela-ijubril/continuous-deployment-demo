@@ -25,7 +25,7 @@ before_install:
 # - if [ -a client-secret.json ]; then
 #     gcloud auth activate-service-account --key-file client-secret.json;
 #   fi
-gcloud auth activate-service-account --key-file client-secret.jso;
+- gcloud auth activate-service-account --key-file client-secret.json;
 install:
 - gcloud config set project continuous-deployment--144517
 - gcloud -q components update gae-python
