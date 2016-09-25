@@ -35,5 +35,6 @@ script:
 # - python test_main.py
 # - gcloud -q preview app deploy app.yaml --promote
 # - gcloud -q app deploy app.yaml --promote
-- gcloud -q app deploy --project continuous-deployment--144517 --version=py app.yaml --log-http --verbosity=debug
+- gcloud -q app deploy --project continuous-deployment--144517 --version=py app.yaml
+# - gcloud -q app deploy --project continuous-deployment--144517 --version=py app.yaml --log-http --verbosity=debug
 # - python e2e_test.py
